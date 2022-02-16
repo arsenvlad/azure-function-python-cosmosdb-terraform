@@ -108,6 +108,9 @@ resource "azurerm_function_app" "function_app" {
   }
 }
 
+# NOTE: Usually you would separate the deployment of the code from the provisioning of infrastructure by using separate pipelines.
+# This example combines both steps into one Terraform for simplicity.
+
 # Create ZIP file containing the function code
 data "archive_file" "file_function_app" {
   type        = "zip"
