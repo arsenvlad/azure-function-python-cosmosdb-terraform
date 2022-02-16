@@ -1,6 +1,6 @@
 # Azure Function in Python connecting to Cosmos DB
 
-This example shows how to use Terraform to deploy a simple Azure Function in Python that reads and writes data to an existing Cosmos DB.
+This example shows how to use Terraform to deploy a simple Azure Function in Python that reads and writes data to a simple Cosmos DB container.
 
 ## Prerequisites
 
